@@ -4,4 +4,4 @@ The public site for **Duel**, the habit-duel app: the support page, the privacy 
 
 The pages are generated from the app repository's `docs/legal/` drafts; edit them there, not here.
 
-**Interim (since 2026-10-24):** `privacy.html` is generated from `privacy.interim.md` here — the 2026-10-19 text with its sign-in rows and provider paragraph corrected — until the app repo's full policy text (flag ticket 441) is published; `terms.html` is generated from the app repo as before. Both are rendered by the app repo's `tools/build_legal_site.py`.
+**Since 2026-10-26:** `privacy.html` and `terms.html` are both generated from the app repo's `docs/legal/privacy.md` and `docs/legal/terms.md` (flag tickets 441, 489 — the purchase text, effective 2026-10-26) by the app repo's `tools/build_legal_site.py`; the interim `privacy.interim.md` is gone.
